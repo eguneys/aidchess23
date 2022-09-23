@@ -16,3 +16,7 @@ do
   pnpm link .
   cd ..
 done
+
+
+
+sed -i 's/link:../link:./' package.json
